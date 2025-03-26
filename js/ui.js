@@ -62,21 +62,3 @@ UI.prototype.skorGoster = function (dogruCevap, toplamSoru) {
   const etiket = `Toplam ${toplamSoru} soruda ${dogruCevap} doğru cevap verdiniz.`;
   document.querySelector(".score-text").innerHTML = etiket;
 };
-
-{
-  /* <h5 class="question-title"></h5>
-          <div class="option-list">
-            <div class="option">
-              <span></span>
-            </div>
-            <div class="option">
-              <span></span>
-            </div>
-            <div class="option">
-              <span></span>
-            </div>
-            <div class="option">
-              <span></span>
-            </div>
-          </div> */
-}
